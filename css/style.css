@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for scroll bar */
+
+/* -webkit-scrollbar is the pseudo element which used to change the properties of scroll bar like its width */
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+
+
+/* -webkit-scrollbar-track is the pesudo element for the track or the limit of scroll  */
+body::-webkit-scrollbar-track{
+    background: white;
+}
+
+
+/* -webkit-scrollbar-thumb is the actual scroller which is used to scroll the webpage  */
+body::-webkit-scrollbar-thumb{
+    background: orange;
+}
+
+.logo{
+    display: inline;
+    color: aliceblue;
+    font-size: 2rem ;
+    font-weight: 300;
+}
+
+li{
+    border: 1px solid   blanchedalmond;
+    border-radius: 100px;   
+    width: auto;
+    display: inline;
+    list-style: none;
+    padding: 10px 25px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/scott-graham-5fNmWej4tAA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+
+    
+}
+
+
+nav{
+    border: 2px solid black;
+    position: fixed;
+    flex-wrap: wrap;
+    background-color: black;
+    opacity: 0.9;
+    width: 100vw;
+    height: 5rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: bisque;
+    font-weight: 400;
+    transition: 0.4s;
+}
+li a:hover{
+    letter-spacing: 0.25rem;
+}
+
+
+
+li:hover{
+    background-color: orange ;
+    letter-spacing: 0.25rem;
+    box-shadow: 0 0 1rem orange;
+}
+
+.services{
+    height: 100px;
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 900px) {
+    nav{
+        background-color:red;
+    }
+}
