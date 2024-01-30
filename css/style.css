@@ -7,8 +7,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Styling for scroll bar */
+/* ==============================utility classes======================== */
 
+.container{
+    max-width: 1200px;
+    width: 90%;.
+    margin: auto;
+}
+
+/* Styling for scroll bar */
 /* -webkit-scrollbar is the pseudo element which used to change the properties of scroll bar like its width */
 body::-webkit-scrollbar{
     width: 0.25rem;
